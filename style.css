@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+    color: white;
+    /* margin: auto; */
+}
+
+.div{
+    border-radius: 100%;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#btn{
+    padding: 20px;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 40px;
+    
+}
+
+.changeColor{
+    background-color: grey;
+    color: white;
+}
+
+.gayab{
+    display: none;
+}
+#elements-done{
+    position: absolute;
+    left: 1000px;
+    /* margin-bottom: auto; */
+    top: 20px;
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+#prev,#curr{
+
+    size: 50px;
+    font-size: 100px;
+    color: white;   
+}
+body{
+    background-color: black;
+}
+li{
+    list-style: none;
+}
